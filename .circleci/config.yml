@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run:
           name: Install test dependencies
-          command:  pip install -r test-requirements.txt
+          command:  pip install -r tests-requirements.txt
       - run:
           name: Run unit tests
           command: pytest test/*
