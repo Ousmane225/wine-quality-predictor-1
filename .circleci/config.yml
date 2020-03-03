@@ -12,7 +12,7 @@ jobs:
           command:  pip install -r tests-requirements.txt
       - run:
           name: Run unit tests
-          command: pytest test/*
+          command: pytest tests/*
 
 
 workflows:
